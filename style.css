@@ -1,0 +1,129 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 0%;
+}
+
+p {
+    font-family: 'Andada', serif;
+    font-size: 17px;
+    font-weight: 100;
+    color: #000000;
+    text-align: center;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 10px;
+    line-height: 125%;
+}
+
+h1 {
+    font-family: 'Andada', serif;
+    font-weight: 400;
+    font-size: 55px;
+    margin-bottom: 0;
+    color: #000000;
+}
+
+.subhead {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 20px;
+    margin-top: 0;
+    color: #2f4f4f;
+}
+
+h2 {
+    font-family: 'Andada', serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 5px;
+    color: #000000;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+h3 {
+    font-family: 'Andada', serif;
+    font-weight: normal;
+    font-size: 25px;
+    text-align: left;
+    margin: 0;
+    color: #2f4f4f;
+    padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 991px) {
+
+    h1 {
+        text-align: center;
+    }
+
+    .subhead {
+        text-align: center;
+    }
+
+    h3 {
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .work img {
+        margin: 0 auto;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightgray;
+    text-decoration: none;
+}
+
+a:active {
+    color: #000000;
+    text-decoration: none;
+}
+
+hr {
+    border-top: 1px solid darkgray;
+}
+
+.header {
+    border-bottom: 2px solid darkgray;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.col-md-12 {
+    margin-top: 2%;
+    padding-bottom: 2%;
+}
+
+.bottom {
+    margin-top: 5%;
+}
+
+.logo {
+    border-top: 1px solid #2f4f4f;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+
+.logo-img {
+    margin: 0 auto;
+}
